@@ -95,7 +95,25 @@ CE.mixed.grad = function(p.val,ro=0.01, J, theta=1, N=10^4, idx=1) {
   return(p.val)
 }
 
-rtp_isce <- CE.mixed.grad
+#' RTP p-value by cross-entropy importance sampling
+#'
+#' This is an alias for [CE.mixed.grad()].
+#'
+#' @param p.val Numeric vector of p-values.
+#' @param ro Quantile level for cross-entropy updating.
+#' @param J Number of smallest p-values used in the RTP statistic.
+#' @param theta Initial proposal parameter.
+#' @param N Number of ISCE samples.
+#' @param idx Decay parameter for mixture probabilities.
+#'
+#' @return Estimated RTP p-value.
+#'
+#' @export
+rtp_isce <- function(p.val, ro = 0.01, J, theta = 1, N = 10^4, idx = 1) {
+  CE.mixed.grad(p.val = p.val, ro = ro, J = J, theta = theta, N = N, idx = idx)
+}
+
+
 # CE.mixed.grad(p.val=c(0.01, 0.02, 0.5, 0.7, 0.9, 0.9), J=3)
 # RTP.stat(p.val = c(0.01, 0.02, 0.5, 0.7, 0.9, 0.9), 3)
 
