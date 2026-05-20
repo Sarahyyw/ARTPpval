@@ -47,3 +47,36 @@ The returned list contains:
 * `rtp_pvalues`: RTP p-values across all truncation points
 
 
+## References
+
+Yu, K., Li, Q., Bergen, A. W., Pfeiffer, R. M., Rosenberg, P. S.,
+Caporaso, N., Kraft, P., & Chatterjee, N. (2009).
+
+*Pathway analysis by adaptive combination of P-values.*
+
+Genetic Epidemiology, 33(8), 700–709.
+
+Vsevolozhskaya, O. A., Hu, F., & Zaykin, D. V. (2019).
+
+*Detecting weak signals by combining small P-values in genetic association studies.*
+
+Frontiers in Genetics, 10, 1051.
+
+Fang, Y., Chang, C., & Tseng, G. (2022).
+
+*On p-value combination of independent and frequent signals:
+asymptotic efficiency and Fisher ensemble.*
+
+arXiv preprint arXiv:2203.11748.
+
+
+
+
+
+
+
+
+
+
+
+
