@@ -39,4 +39,11 @@ rtp_isce(p.val = p, J = 3)
 artp_isce(p.values = p)
 ```
 
+The returned list contains:
+
+* `p.value`: estimated ARTP p-value
+* `cutpoint`: RTP truncation point selected by ARTP (top-ranked minimum p-values)
+* `observed_stat`: observed ARTP test statistic (minimum RTP p-value)
+* `rtp_pvalues`: RTP p-values across all truncation points
+
 
