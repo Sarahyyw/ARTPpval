@@ -15,7 +15,7 @@ CE.mixed.grad(p.val, ro = 0.01, J, theta = 1, N = 10^4, idx = 1)
 
 \item{theta}{Initial proposal parameter.}
 
-\item{N}{Number of Monte Carlo samples.}
+\item{N}{Number of ISCE sampling.}
 
 \item{idx}{Decay parameter for mixture probabilities.}
 }

@@ -49,7 +49,7 @@ mixed.par.update.grad=function(object,ro,K,idx=1) {
 #' @param ro Quantile level for cross-entropy updating.
 #' @param J Number of smallest p-values used in the RTP statistic.
 #' @param theta Initial proposal parameter.
-#' @param N Number of Monte Carlo samples.
+#' @param N Number of ISCE sampling.
 #' @param idx Decay parameter for mixture probabilities.
 #'
 #' @return Estimated RTP p-value.

@@ -17,16 +17,26 @@ remotes::install_github("Sarahyyw/ARTPpval")
 
 ## Example
 
-This is a basic example:
+```r
+library(ARTPpval)
+p <- c(0.01, 0.02, 0.05, 0.5, , 0.53, 0.7, 0.9, 0.92)
+```
 
-``` r
-library(ARTPpval) 
-p <- c(0.01, 0.02, 0.5, 0.7, 0.9, 0.9) 
+### RTP p-value calculation
 
-# RTP integral approximation 
-rtp_integral(p.values = p, i = 3) 
+```r
+# RTP integral approximation
+rtp_integral(p.values = p, i = 3)
 
-# RTP importance sampling 
+# RTP importance sampling
 rtp_isce(p.val = p, J = 3)
 ```
+
+### ARTP p-value calculation
+
+```r
+# ARTP importance sampling
+artp_isce(p.values = p)
+```
+
 
