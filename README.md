@@ -19,7 +19,7 @@ remotes::install_github("Sarahyyw/ARTPpval")
 
 ```r
 library(ARTPpval)
-p <- c(0.01, 0.02, 0.05, 0.5, , 0.53, 0.7, 0.9, 0.92)
+p <- c(0.01, 0.02, 0.05, 0.5, 0.53, 0.7, 0.9, 0.92)
 ```
 
 ### RTP p-value calculation
