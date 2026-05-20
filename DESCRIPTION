@@ -14,3 +14,5 @@ RoxygenNote: 7.3.3
 Imports:
     rtp,
     Rfast
+URL: https://github.com/Sarahyyw/ARTPpval
+BugReports: https://github.com/Sarahyyw/ARTPpval/issues
