@@ -2,6 +2,7 @@
 
 export(CE.mixed.grad)
 export(artp_isce)
+export(artp_ufi)
 export(rtp_integral)
 export(rtp_isce)
 importFrom(stats,dnorm)

@@ -16,3 +16,5 @@ Imports:
     Rfast
 URL: https://github.com/Sarahyyw/ARTPpval
 BugReports: https://github.com/Sarahyyw/ARTPpval/issues
+Depends: 
+    R (>= 3.5)
