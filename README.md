@@ -3,8 +3,7 @@
 
 ARTPpval provides fast and accurate p-value calculation methods
 for rank truncated product (RTP) and adaptive rank truncated product
-(ARTP) statistics, including integral approximation and
-cross-entropy importance sampling approaches.
+(ARTP) test, including integral approximation, cross-entropy importance sampling and Ultra-fast Interpolation approaches.
 
 ## Installation
 
